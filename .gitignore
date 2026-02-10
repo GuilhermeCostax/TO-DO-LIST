@@ -1,0 +1,45 @@
+# --- Segurança e Ambiente ---
+.env
+.env.local
+
+# --- Arquivos do Sistema (macOS) ---
+.DS_Store
+Thumbs.db
+
+# --- Java e Build (Maven) ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Opcional: Ignorar o jar do wrapper se quiser um repo bem magro
+.mvn/wrapper/maven-wrapper.jar
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- VS Code ---
+.vscode/
+
+# --- Outras IDEs (NetBeans/STS) ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
